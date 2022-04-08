@@ -12,12 +12,12 @@ while True :
         num=int(input('Escolha um número de 0 a 10 para jogar: '))
         
         if num > 10:
-            print('Burrão. É só até 10')
+            print('Escolha somente até 10')
                 
         else:
             break
     else:
-        print("Burrão. É par ou impar")
+        print("Entre com par ou impar")
         
 op2= random.randint(10)
 op2 = int(op2)
@@ -32,13 +32,13 @@ if op == 'par':
         print("-------Parabéns você ganhou-------")
 
     else:
-        print("Otario perdeu pra bot KKKKKKKKKKK")
+        print("Você perdeu, tente novamente!")
 
 elif op == 'impar':
     if soma % 2 != 0:
         print('-------Parabéns você ganhou-------')
     else:
-        print('Otario perdeu pra bot KKKKKKKKKKK')
+        print('Você perdeu, tente novamente!')
 
 else:
-    print("Escreve direito otario")
+    print("Entre com um texto válido")
